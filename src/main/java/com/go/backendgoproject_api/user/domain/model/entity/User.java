@@ -15,7 +15,6 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(name = "users")
 public class User extends AuditModel {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
