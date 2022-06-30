@@ -10,7 +10,6 @@ import javax.validation.constraints.NotNull;
 @Setter
 public class UpdateUserResource {
     private Long id;
-
     private String username;
 
 
