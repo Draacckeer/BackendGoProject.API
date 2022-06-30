@@ -17,5 +17,5 @@ public class CreateUserResource {
 
     private String password;
 
-    private Number money;
+    private String vote;
 }
