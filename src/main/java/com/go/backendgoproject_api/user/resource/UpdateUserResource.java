@@ -16,5 +16,5 @@ public class UpdateUserResource {
 
     private String password;
 
-    private String vote;
+    private Long tokens;
 }

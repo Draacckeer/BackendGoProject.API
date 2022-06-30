@@ -63,7 +63,7 @@ public class UserServiceImpl implements UserService {
                             userRepository.save(
                                     user.withUsername(request.getUsername())
                                             .withPassword(request.getPassword())
-                                            .withVote(request.getVote())
+                                            .withTokens(request.getTokens())
                             )).orElseThrow(()-> new ResourceNotFoundException(ENTITY, userId));
         }
         catch (Exception e){

@@ -24,5 +24,5 @@ public class User extends AuditModel {
 
     private String password;
 
-    private String vote;
+    private Long tokens;
 }
