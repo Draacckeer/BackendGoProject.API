@@ -5,7 +5,6 @@ import com.go.backendgoproject_api.shared.exception.ResourceValidationException;
 import com.go.backendgoproject_api.transaction.domain.model.entity.Transaction;
 import com.go.backendgoproject_api.transaction.domain.persistence.TransactionRepository;
 import com.go.backendgoproject_api.transaction.domain.service.TransactionService;
-import com.go.backendgoproject_api.user.domain.model.entity.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
